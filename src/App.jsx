@@ -1,11 +1,19 @@
-
+import Header from "./components/Header"
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
 
 
   return (
-    <>
-      <div className="text-3xl bg-red-400">tailwind</div>
+    <> 
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route />
+        </Routes>
+      </BrowserRouter>
+      
+    
     </>
   )
 }
